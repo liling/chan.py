@@ -3,15 +3,15 @@ import datetime
 from collections import defaultdict
 from typing import Dict, Iterable, List, Optional, Union
 
-from BuySellPoint.BS_Point import CBS_Point
-from ChanConfig import CChanConfig
-from Common.CEnum import AUTYPE, DATA_SRC, KL_TYPE
-from Common.ChanException import CChanException, ErrCode
-from Common.CTime import CTime
-from Common.func_util import check_kltype_order, kltype_lte_day
-from DataAPI.CommonStockAPI import CCommonStockApi
-from KLine.KLine_List import CKLine_List
-from KLine.KLine_Unit import CKLine_Unit
+from .BuySellPoint.BS_Point import CBS_Point
+from .ChanConfig import CChanConfig
+from .Common.CEnum import AUTYPE, DATA_SRC, KL_TYPE
+from .Common.ChanException import CChanException, ErrCode
+from .Common.CTime import CTime
+from .Common.func_util import check_kltype_order, kltype_lte_day
+from .DataAPI.CommonStockAPI import CCommonStockApi
+from .KLine.KLine_List import CKLine_List
+from .KLine.KLine_Unit import CKLine_Unit
 
 
 class CChan:

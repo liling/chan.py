@@ -6,11 +6,11 @@ from matplotlib.axes import Axes
 from matplotlib.figure import Figure
 from matplotlib.patches import Rectangle
 
-from Chan import CChan
-from Common.CEnum import BI_DIR, FX_TYPE, KL_TYPE, KLINE_DIR, TREND_TYPE
-from Common.ChanException import CChanException, ErrCode
-from Common.CTime import CTime
-from Math.Demark import T_DEMARK_INDEX, CDemarkEngine
+from ..Chan import CChan
+from ..Common.CEnum import BI_DIR, FX_TYPE, KL_TYPE, KLINE_DIR, TREND_TYPE
+from ..Common.ChanException import CChanException, ErrCode
+from ..Common.CTime import CTime
+from ..Math.Demark import T_DEMARK_INDEX, CDemarkEngine
 
 from .PlotMeta import CBi_meta, CChanPlotMeta, CZS_meta
 
